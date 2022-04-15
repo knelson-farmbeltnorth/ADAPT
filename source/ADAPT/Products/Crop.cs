@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -16,6 +16,9 @@ using AgGateway.ADAPT.ApplicationDataModel.Representations;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Products
 {
+    /// <summary>
+    /// A plant or animal type cultivated for agricultural produce
+    /// </summary>
     public class Crop
     {
         public Crop()
