@@ -41,6 +41,10 @@ using AgGateway.ADAPT.ApplicationDataModel.Documents;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.ADM
 {
+    /// <summary>
+    /// Data container for types that are fixed, infrequently changing, or otherwise prerequisite to transactional data.
+    /// Master or Reference data, often called Setup or Coding data in agricultural applications.
+    /// </summary>
     public class Catalog
     {
         public Catalog()

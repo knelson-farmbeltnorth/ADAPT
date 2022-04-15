@@ -17,6 +17,9 @@ using AgGateway.ADAPT.ApplicationDataModel.Representations;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 {
+    /// <summary>
+    /// A tract of land usually farmed as a single unit
+    /// </summary>
     public class Field
     {
         public Field()

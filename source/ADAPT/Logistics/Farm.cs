@@ -15,6 +15,9 @@ using AgGateway.ADAPT.ApplicationDataModel.Common;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 {
+    /// <summary>
+    /// A collection of fields grouped together as a common organizational unit, often reflecting shared location or historical ownership.
+    /// </summary>
     public class Farm
     {
         public Farm()
