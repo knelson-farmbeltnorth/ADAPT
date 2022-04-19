@@ -14,6 +14,9 @@ using System.Collections.Generic;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Shapes
 {
+    /// <summary>
+    /// A shape defined by 2 or more points
+    /// </summary>
     public class MultiPoint : Shape
     {
         public MultiPoint()

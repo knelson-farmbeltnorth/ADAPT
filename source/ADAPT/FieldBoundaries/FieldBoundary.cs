@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -43,7 +43,10 @@ namespace AgGateway.ADAPT.ApplicationDataModel.FieldBoundaries
         public List<Headland> Headlands { get; set; }
         
         public GpsSource GpsSource { get; set; }
-        
+
+        /// <summary>
+        /// Any coordinate system other than 4326 that the boundary may have been represented in prior to its conversion to 4326.
+        /// </summary>
         public string OriginalEpsgCode { get; set; }
         
         public List<InteriorBoundaryAttribute> InteriorBoundaryAttributes { get; set; }

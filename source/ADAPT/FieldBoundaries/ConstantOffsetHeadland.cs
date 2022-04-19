@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -15,8 +15,14 @@ using AgGateway.ADAPT.ApplicationDataModel.Representations;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.FieldBoundaries
 {
+    /// <summary>
+    /// A headland encircling a field boundary defined by a fixed distance from the edge of the field boundary
+    /// </summary>
     public class ConstantOffsetHeadland : Headland
     {
+        /// <summary>
+        /// The distance the headland is offset 
+        /// </summary>
         public NumericRepresentationValue Value {get; set; }
     }
 }

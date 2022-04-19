@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -18,6 +18,9 @@ using AgGateway.ADAPT.ApplicationDataModel.Shapes;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 {
+    /// <summary>
+    /// A physical location, as identified by spatial coordinates.   Cf. Place which extends Location with miscellaneous context.
+    /// </summary>
     public class Location
     {
         public Location()

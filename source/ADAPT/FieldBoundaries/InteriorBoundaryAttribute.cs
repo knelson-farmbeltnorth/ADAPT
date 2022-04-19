@@ -19,6 +19,9 @@ using System.Collections.Generic;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.FieldBoundaries
 {
+    /// <summary>
+    /// A spatial feature inside of a field boundary such as a waterway, rockpile, or grove of trees.
+    /// </summary>
     public class InteriorBoundaryAttribute
     {
         public InteriorBoundaryAttribute()
@@ -27,6 +30,9 @@ namespace AgGateway.ADAPT.ApplicationDataModel.FieldBoundaries
         }
         public Shapes.Shape Shape { get; set; }
 
+        /// <summary>
+        /// Whether the boundary may be crossed with a vehicle, e.g., a grass waterway (true) vs. a rock pile (false)
+        /// </summary>
         public bool IsPassable { get; set; }
 
         public string Description { get; set; }

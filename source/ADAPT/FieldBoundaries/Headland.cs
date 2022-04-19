@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -13,6 +13,9 @@
 
 namespace AgGateway.ADAPT.ApplicationDataModel.FieldBoundaries
 {
+    /// <summary>
+    /// /Ground near the ends of a field that is cultivated differently than the main body of the field.
+    /// </summary>
     public abstract class Headland
     {
         public string Description { get; set; }

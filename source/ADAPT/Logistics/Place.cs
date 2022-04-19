@@ -14,9 +14,10 @@ using AgGateway.ADAPT.ApplicationDataModel.Shapes;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 {
-    // Place enables specifying where something is/was/will be, with varying degrees of detail.
+    /// <summary>
+    /// Place enables specifying where something is/was/will be, with varying degrees of detail.
     // Initially planned for use when specifying actions performed with containers, and With PAIL OM.
-
+    /// </summary>
     public class Place
     {
         public Place()

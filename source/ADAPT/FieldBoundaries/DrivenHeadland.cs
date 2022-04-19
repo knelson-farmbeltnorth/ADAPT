@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -15,6 +15,9 @@ using AgGateway.ADAPT.ApplicationDataModel.Shapes;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.FieldBoundaries
 {
+    /// <summary>
+    /// A headland defined by a fixed shape
+    /// </summary>
     public class DrivenHeadland : Headland
     {
         public MultiPolygon SpatialData { get; set; }

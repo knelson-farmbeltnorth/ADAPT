@@ -14,6 +14,10 @@ using System.Collections.Generic;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Shapes
 {
+
+    /// <summary>
+    /// A group of non-intersecting spatial regions with shared identity
+    /// </summary>
     public class MultiPolygon : Shape
     {
         public MultiPolygon()

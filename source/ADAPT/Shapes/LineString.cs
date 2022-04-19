@@ -14,6 +14,9 @@ using System.Collections.Generic;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Shapes
 {
+    /// <summary>
+    /// Two or more points, comprising an unbroken line
+    /// </summary>
     public class LineString : Shape
     {
         public LineString()

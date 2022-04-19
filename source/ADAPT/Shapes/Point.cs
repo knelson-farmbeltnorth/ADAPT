@@ -14,6 +14,9 @@
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Shapes
 {
+    /// <summary>
+    /// A 3-dimensional spatial coordinate
+    /// </summary>
     public class Point : Shape
     {
         public Point()

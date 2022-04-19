@@ -14,6 +14,9 @@ using System.Collections.Generic;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Shapes
 {
+    /// <summary>
+    /// A shape defined by 2 or more LineStrings
+    /// </summary>
     public class MultiLineString : Shape
     {
         public MultiLineString()

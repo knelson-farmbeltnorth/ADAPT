@@ -14,6 +14,9 @@ using System.Collections.Generic;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Shapes
 {
+    /// <summary>
+    /// A line that closes upon itself, enclosing space.  The first and last points must match.
+    /// </summary>
     public class LinearRing : Shape
     {
         public LinearRing()
