@@ -31,7 +31,7 @@ namespace AgGateway.ADAPT.ApplicationDataModel.FieldBoundaries
         public Shapes.Shape Shape { get; set; }
 
         /// <summary>
-        /// Whether the boundary may be crossed with a vehicle, e.g., a grass waterway (true) vs. a rock pile (false)
+        /// Whether the feature may be crossed with a vehicle, e.g., a shallow grass waterway (true) vs. a rock pile (false)
         /// </summary>
         public bool IsPassable { get; set; }
 

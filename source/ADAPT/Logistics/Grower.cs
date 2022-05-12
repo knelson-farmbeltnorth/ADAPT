@@ -15,7 +15,7 @@ using AgGateway.ADAPT.ApplicationDataModel.Common;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 {
-    ./// <summary>
+    /// <summary>
     /// An individual/business entity engaged in agricultural production.
     /// </summary>
     public class Grower

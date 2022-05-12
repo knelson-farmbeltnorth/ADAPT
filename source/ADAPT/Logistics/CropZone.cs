@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -19,6 +19,9 @@ using AgGateway.ADAPT.ApplicationDataModel.Shapes;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 {
+    /// <summary>
+    /// A more detailed representation of/within a Field, usually defining a crop and growing season and often a separate boundary.
+    /// </summary>
     public class CropZone
     {
         public CropZone()
