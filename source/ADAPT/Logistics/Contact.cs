@@ -8,10 +8,14 @@
   *
   * Contributors:
   *    Tarak Reddy, Tim Shearouse - initial API and implementation
-  *******************************************************************************/  
+  *    Kelly Nelson - added definitions
+  *******************************************************************************/
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 {
+    /// <summary>
+    /// An individual line item within a Contact Info.   A telephone number or email address.
+    /// </summary>
     public class Contact
     {
         public string Number { get; set; }

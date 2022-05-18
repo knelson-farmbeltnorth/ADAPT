@@ -9,6 +9,7 @@
   * Contributors:
   *    Tarak Reddy, Tim Shearouse - initial API and implementation
   *    Kathleen Oneal - added referenceLayerIds
+  *    Kelly Nelson - added definitions
   *******************************************************************************/
 
 using System.Collections.Generic;
@@ -34,8 +35,14 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 
         public string Description { get; set; }
 
+        /// <summary>
+        /// Optional mapping to a Grower
+        /// </summary>
         public int? GrowerId { get; set; }
 
+        /// <summary>
+        /// Optional mapping to a Farm
+        /// </summary>
         public int? FarmId { get; set; }
 
         public NumericRepresentationValue Area { get; set; }

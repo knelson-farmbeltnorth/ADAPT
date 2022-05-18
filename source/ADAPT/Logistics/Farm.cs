@@ -8,6 +8,7 @@
   *
   * Contributors:
   *    Tarak Reddy, Tim Shearouse - initial API and implementation
+  *    Kelly Nelson - added definitions
   *******************************************************************************/
 
 using System.Collections.Generic;
@@ -31,6 +32,9 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 
         public string Description { get; set; }
 
+        /// <summary>
+        /// Optional mapping to a Grower
+        /// </summary>
         public int? GrowerId { get; set; }
 
         public ContactInfo ContactInfo { get; set; }

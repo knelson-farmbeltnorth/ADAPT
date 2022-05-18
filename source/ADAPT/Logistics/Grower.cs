@@ -8,6 +8,7 @@
   *
   * Contributors:
   *    Tarak Reddy, Tim Shearouse - initial API and implementation
+  *    Kelly Nelson - added definitions
   *******************************************************************************/
 
 using System.Collections.Generic;

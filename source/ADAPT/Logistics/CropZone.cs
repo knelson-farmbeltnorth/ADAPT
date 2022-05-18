@@ -9,6 +9,7 @@
   * Contributors:
   *    Tarak Reddy, Tim Shearouse - initial API and implementation
   *    Justin Sliekers - renamed ReferenceNoteIds to NoteIds
+  *    Kelly Nelson - added definitions
   *******************************************************************************/
 
 using System.Collections.Generic;
@@ -35,18 +36,33 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 
         public CompoundIdentifier Id { get; private set; }
 
+        /// <summary>
+        /// Specific time/season information for this CropZone
+        /// </summary>
         public List<TimeScope> TimeScopes { get; set; }
 
         public string Description { get; set; }
 
+        /// <summary>
+        /// Mapping to the Field.   Required.
+        /// </summary>
         public int FieldId { get; set; }
 
+        /// <summary>
+        /// Mapping to the Crop.  Required.
+        /// </summary>
         public int? CropId { get; set; }
 
         public NumericRepresentationValue Area { get; set; }
 
+        /// <summary>
+        /// The boundary of this CropZone
+        /// </summary>
         public MultiPolygon BoundingRegion { get; set; }
 
+        /// <summary>
+        /// The Source of the Bounary
+        /// </summary>
         public GpsSource BoundarySource { get; set; }
 
         public List<Note> Notes { get; set; }

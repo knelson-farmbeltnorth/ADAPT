@@ -9,6 +9,7 @@
   * Contributors:
   *    Tarak Reddy, Tim Shearouse - initial API and implementation
   *    Joseph Ross Making Properties
+  *    Kelly Nelson - added definitions    
   *******************************************************************************/
 
 using System;
@@ -17,6 +18,9 @@ using AgGateway.ADAPT.ApplicationDataModel.Common;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 {
+    /// <summary>
+    /// A trade name under which a Manufacturer markets a good.
+    /// </summary>
     public class Brand
     {
         public Brand()
@@ -29,6 +33,9 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 
         public String Description { get; set; }
 
+        /// <summary>
+        /// Optional mapping to Manufacturer
+        /// </summary>
         public int ManufacturerId { get; set; }
 
         public List<ContextItem> ContextItems { get; set; }

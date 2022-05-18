@@ -10,6 +10,7 @@
   *    Tarak Reddy, Tim Shearouse - initial API and implementation
   *    Kathleen Oneal - added GpsSource
   *    R. Andres Ferreyra - added nullable ParentFacilityId for PAIL compatibility.
+  *    Kelly Nelson - added definitions
   *******************************************************************************/
 
 using System.Collections.Generic;

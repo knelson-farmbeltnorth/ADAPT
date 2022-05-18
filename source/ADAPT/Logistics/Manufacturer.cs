@@ -11,7 +11,8 @@
   *    Tarak Reddy, Tim Shearouse - initial API and implementation
   *    Joseph Ross Making Properties
   *    Justin Sliekers - dropping context items
-  *    Andres Ferreyra - 20200527 re-adding ContextItems; e.g., to support GLNs for ISO 11783 Annex E manufacturer Ids.  
+  *    Andres Ferreyra - 20200527 re-adding ContextItems; e.g., to support GLNs for ISO 11783 Annex E manufacturer Ids.
+  *    Kelly Nelson - added definitions
   *******************************************************************************/
 
 using System;
@@ -20,6 +21,9 @@ using AgGateway.ADAPT.ApplicationDataModel.Common;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 {
+    /// <summary>
+    /// The entity who manufactured a given market good
+    /// </summary>
     public class Manufacturer
     {
         public Manufacturer()
