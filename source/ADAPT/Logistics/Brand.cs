@@ -34,7 +34,7 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
         public String Description { get; set; }
 
         /// <summary>
-        /// Optional mapping to Manufacturer
+        /// Required mapping to Manufacturer
         /// </summary>
         public int ManufacturerId { get; set; }
 

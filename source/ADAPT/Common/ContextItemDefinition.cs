@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015-16 AgGateway and ADAPT Contributors
   * Copyright (C) 2016 Ag Connections
   * Copyright (C) 2015 Deere and Company
@@ -31,6 +31,9 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Common
         Integer = 5
     }
 
+    /// <summary>
+    /// A specific definition to which any ContextItem via the Code property
+    /// </summary>
     public class ContextItemDefinition
     {
         /// <summary>
