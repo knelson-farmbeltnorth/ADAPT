@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -18,6 +18,9 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Products
 {
     public class MixProduct : Product
     {
+        /// <summary>
+        /// The total quantity of the mix recipe
+        /// </summary>
         public NumericRepresentationValue TotalQuantity { get; set; }
 
         public bool IsTemporary { get; set; }

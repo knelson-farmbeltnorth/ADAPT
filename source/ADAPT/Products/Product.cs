@@ -36,6 +36,9 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Products
 
         public int? BrandId { get; set; }
 
+        /// <summary>
+        /// The intended use of a product
+        /// </summary>
         public CategoryEnum Category { get; set; }
         
         public List<ContextItem> ContextItems { get; set; }
@@ -52,6 +55,9 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Products
 
         public string Description { get; set; }
 
+        /// <summary>
+        /// The physical form of a product
+        /// </summary>
         public ProductFormEnum Form { get; set; }
 
         public bool HasCropProtection { get; set; }
@@ -66,6 +72,9 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Products
 
         public List<ProductComponent> ProductComponents { get; set; }
 
+        /// <summary>
+        /// High level type of product
+        /// </summary>
         public ProductTypeEnum ProductType { get; set; }
 
         public ProductStatusEnum Status { get; set; }

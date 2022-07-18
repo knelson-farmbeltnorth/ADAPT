@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
  * Copyright (C) 2015 AgGateway and ADAPT Contributors
  * Copyright (C) 2015 Deere and Company
  * All rights reserved. This program and the accompanying materials
@@ -19,6 +19,9 @@ using AgGateway.ADAPT.ApplicationDataModel.Shapes;
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Guidance
 {
+    /// <summary>
+    /// A geospatial definition used to guide a vehicle in a field
+    /// </summary>
     public abstract class GuidancePattern
     {
         public GuidancePattern()
@@ -28,6 +31,9 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Guidance
 
         public CompoundIdentifier Id { get; private set; }
 
+        /// <summary>
+        /// The type of guidance pattern:  AB line, AB curve, APlus line, Spiral or Pivot.
+        /// </summary>
         public GuidancePatternTypeEnum GuidancePatternType { get; set; }
 
         public GpsSource GpsSource { get; set; }
@@ -38,8 +44,14 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Guidance
 
         public NumericRepresentationValue SwathWidth { get; set; }
 
+        /// <summary>
+        /// The propagation direction of a guidance pattern:  Both directions (default), left only, right only, or no propagation.
+        /// </summary>
         public PropagationDirectionEnum PropagationDirection { get; set; }
 
+        /// <summary>
+        /// The extension of a guidance line outward from either end point.  From both points (default), from A only, from B only, or no extension
+        /// </summary>
         public GuidanceExtensionEnum Extension { get; set; }
 
         public int? NumbersOfSwathsLeft { get; set; }
