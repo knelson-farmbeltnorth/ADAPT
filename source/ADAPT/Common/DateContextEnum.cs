@@ -18,7 +18,7 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Common
 {
     public enum DateContextEnum
     {
-        Unknown,
+        Unspecified,
         Approval,
         ProposedStart,
         ProposedEnd,
@@ -39,7 +39,6 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Common
         Unload,
         Suspend,
         Resume,
-        Unspecified,
         Installation, // When was the device, sensor, etc. installed?
         Maintenance, // When was maintenance performed on the device, sensor, etc.?
         PhenomenonTime, // Important attribute of an ISO 19156 Observation
