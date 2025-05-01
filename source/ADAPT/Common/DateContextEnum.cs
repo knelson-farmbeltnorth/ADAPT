@@ -11,6 +11,7 @@
   *    Tarak Reddy, Tim Shearouse - initial API and implementation
   *    Kathleen Oneal - added additional values
   *    R. Andres Ferreyra - added PAIL / OM-related values, and comments.
+  *    Kelly Nelson - added Unknown as default type
   *******************************************************************************/  
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Common
