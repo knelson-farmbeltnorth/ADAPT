@@ -17,6 +17,7 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Common
 {
     public enum DateContextEnum
     {
+        Unknown,
         Approval,
         ProposedStart,
         ProposedEnd,
